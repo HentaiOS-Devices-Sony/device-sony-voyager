@@ -12,12 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_h3413.mk \
-                     $(LOCAL_DIR)/aosp_h4413.mk
-
-COMMON_LUNCH_CHOICES += \
-    aosp_h3413-eng \
-    aosp_h3413-userdebug \
-    aosp_h4413-eng \
-    aosp_h4413-userdebug
-
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/hentai_voyager_RoW.mk \
+    $(LOCAL_DIR)/hentai_voyager_DSDS.mk
+    
+    COMMON_LUNCH_CHOICES += \
+    hentai_voyager_RoW-eng \
+    hentai_voyager_RoW-userdebug \
+    hentai_voyager_RoW-user \
+    hentai_voyager_DSDS-eng \
+    hentai_voyager_DSDS-userdebug \
+    hentai_voyager_DSDS-user
