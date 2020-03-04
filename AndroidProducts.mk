@@ -14,7 +14,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hentai_voyager_RoW.mk \
-    $(LOCAL_DIR)/hentai_voyager_DSDS.mk
+    $(LOCAL_DIR)/hentai_voyager_DSDS.mk \
+    $(LOCAL_DIR)/hentai_voyager_RoW_Go.mk \
+    $(LOCAL_DIR)/hentai_voyager_DSDS_Go.mk \
     
     COMMON_LUNCH_CHOICES += \
     hentai_voyager_RoW-eng \
@@ -22,4 +24,10 @@ PRODUCT_MAKEFILES := \
     hentai_voyager_RoW-user \
     hentai_voyager_DSDS-eng \
     hentai_voyager_DSDS-userdebug \
-    hentai_voyager_DSDS-user
+    hentai_voyager_DSDS-user \
+    hentai_voyager_RoW_Go-eng \
+    hentai_voyager_RoW_Go-userdebug \
+    hentai_voyager_RoW_Go-user \
+    hentai_voyager_DSDS_Go-eng \
+    hentai_voyager_DSDS_Go-userdebug \
+    hentai_voyager_DSDS_Go-user \
